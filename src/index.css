@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.search-bar {
+  @apply w-[550px] h-[44px] rounded-full border border-gray-200 hover:shadow-md focus-within:shadow-md px-6;
+}
+
+.search-button {
+  @apply bg-[#f8f9fa] text-sm px-4 py-2 rounded hover:border-gray-300 hover:shadow-sm;
+}
